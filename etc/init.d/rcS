@@ -1,7 +1,8 @@
 #! /bin/sh
-mkdir /proc
-mkdir /sys
-mkdir /d
+mkdir -p /dev
+mkdir -p /proc
+mkdir -p /sys
+mkdir -p /d
 /bin/mount /proc
 /bin/mount /sys
 echo /sbin/mdev >/proc/sys/kernel/hotplug
