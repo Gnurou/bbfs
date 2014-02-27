@@ -4,7 +4,7 @@ This repository contains a simple Busybox root filesystem that is suitable for b
 
 Features
 --------
-- Stock Busybox 1.21, compiled without modifications
+- Stock Busybox 1.22.1, compiled without modifications
 - Mounts /proc, /sys, /d
 - Uses mdev (tiny udev) to populate /dev
 - Easily customizable to perform specific tasks (just change /etc/profile)
